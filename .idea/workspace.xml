@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="55627c66-6e2b-4509-9e77-96c272220bbc" name="Default Changelist" comment="An attempt to see this on Github">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/tabeiwebsite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/IMG_1068.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/IMG_1085.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/IMG_1095.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/IMG_1122.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/IMG_1124.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/IMG_1131.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/IMG_1139.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/IMG_1146.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/IMG_1174.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/TabeiLogotitle3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/alpine-clouds-cloudy-daylight-414122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/green-mountains-and-flowing-river-206660.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/rocky-mountain-671658.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/rocky-mountain-671658head copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/rocky-mountain-671658head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scenic-photo-of-lake-surrounded-by-trees-1903702.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/snow-landscape-mountains-nature-59106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/street-road-near-green-and-yellow-trees-67517.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courses.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/audio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/audio.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/audio.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/blog.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/blog.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/calendar.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/calendar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/carousel.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/carousel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/colors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/colors.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/colors.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/commentfourm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/commentfourm.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/commentfourm.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/contact.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/contact.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/features.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/features.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/features.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/grid.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/headings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/headings.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/headings.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/main.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/map.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/map.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/modals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/modals.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/modals.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/nav.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/nav.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/search.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/search.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/shop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/shop.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/shop.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/style.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/video.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cssbasic/video.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/autocarousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/process.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="blaireacoleman@gmail.com" />
+        <option value="blairecoleman" />
+        <option value="Blaire" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="blairecoleman" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="tabeiwebsite" />
+  </component>
+  <component name="ProjectId" id="1emcdynblSqhWvOUAtzXqdp6ToE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55627c66-6e2b-4509-9e77-96c272220bbc" name="Default Changelist" comment="" />
+      <created>1594930299524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594930299524</updated>
+      <workItem from="1594930300947" duration="15099000" />
+      <workItem from="1595436637585" duration="23288000" />
+      <workItem from="1595900712979" duration="2583000" />
+      <workItem from="1597644818142" duration="563000" />
+      <workItem from="1597770473797" duration="1479000" />
+      <workItem from="1597842284355" duration="3210000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="An attempt to see this on Github" />
+    <option name="LAST_COMMIT_MESSAGE" value="An attempt to see this on Github" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="240" y="46" key="#Deployment" timestamp="1597852166698">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="46" key="#Deployment/0.0.1280.800@0.0.1280.800" timestamp="1597852166698" />
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597851618917">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1597851618917" />
+    <state x="225" y="23" width="830" height="715" key="CommitChangelistDialog2" timestamp="1597852168185">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="225" y="23" width="830" height="715" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1597852168185" />
+    <state x="394" y="280" key="Github.CreatePullRequestDialog" timestamp="1597852791672">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="394" y="280" key="Github.CreatePullRequestDialog/0.0.1280.800@0.0.1280.800" timestamp="1597852791672" />
+    <state x="394" y="274" key="Github.CreatePullRequestDialog/0.23.1280.716@0.23.1280.716" timestamp="1597851881297" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1597853088808">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1597853088808" />
+    <state x="441" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597851891326">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="441" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1597851891326" />
+    <state x="417" y="296" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597853024709">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="417" y="296" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.800@0.0.1280.800" timestamp="1597853024709" />
+    <state x="383" y="301" key="git4idea.ui.GitResetDialog" timestamp="1597852982532">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="383" y="301" key="git4idea.ui.GitResetDialog/0.0.1280.800@0.0.1280.800" timestamp="1597852982532" />
+  </component>
+</project>

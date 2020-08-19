@@ -1,0 +1,5 @@
+.videogrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+/*# sourceMappingURL=video.css.map */

@@ -1,0 +1,213 @@
+p {
+
+}
+blockquote{
+
+}
+a {
+
+}
+ul{
+
+}
+li{
+
+}
+nav{
+
+}
+nav ul {
+  list-style-type: none;
+}
+header img {
+  width: 100%;
+  opacity: 50%;
+  z-index:0;
+  position:relative;
+  top:0;
+  transition:all .5s ease-in-out;
+}
+li a {
+  margin: 25px;
+  color: @warmgray;
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+}
+li a img {
+  width: 200px;
+
+
+
+}
+li a:hover{
+  color: @salmon;
+}
+
+button {
+  outline:none;
+  border-radius: 5px;
+  background-color: @teal;
+  color: @warmtan;
+  font-family: Montserrat sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px;
+  border: none;
+  box-shadow: none;
+}
+form{
+display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+label{
+  margin: 20px;
+  font-family: Montserrat, serif;
+  font-weight: 600;
+  color: @warmgray;
+  font-size: 20px;
+}
+input{
+  margin: 25px;
+  border-width: .5px;
+  border-style: solid;
+  border-color: @warmgray @warmgray @salmon @warmgray;
+  border-radius: 10px;
+  width: 100%;
+  font-family: Montserrat, serif;
+}
+[type="checkbox"]:not(:checked){
+  margin: 25px;
+  content: " ";
+  border: .5px solid @warmgray;
+  border-radius: 10px;
+  height: 25px;
+  width:25px;
+}
+[type="checkbox"]:hover{
+  border: 2px solid @salmon;
+
+}
+
+[type="checkbox"]:checked{
+  outline: none;
+  border-width: 3px;
+  border-style: solid;
+  border-color: @warmgray;
+  font-size: 20px;
+  background: @salmon;
+  content: '\2713\0020';
+  height: 25px;
+  width:25px;
+}
+input:hover{
+  border-bottom: 2px solid @salmon;
+  box-shadow: 5px @warmgray;
+}
+input:focus{
+  outline: none;
+  border-width: 3px;
+  border-style: solid;
+  border-color: @salmon;
+
+  transition: ease-in-out, width .35s ease-in-out;
+  color: @warmgray;
+  font-size: 20px;
+  font-family: Montserrat, serif;
+}
+textarea{
+  margin: 25px;
+  border-width: .5px;
+  border-style: solid;
+  border-color: @warmgray @warmgray @salmon @warmgray;
+  border-radius: 10px;
+  width: 100%;
+  min-height: 500px;
+}
+textarea:hover{
+  border-bottom: 2px solid @salmon;
+}
+textarea:focus{
+  outline: none;
+  border-width: 3px;
+  border-style: solid;
+  border-color: @salmon;
+  box-shadow: 3px @warmgray;
+  transition: ease-in-out, width .35s ease-in-out;
+  color: @warmgray;
+  font-size: 20px;
+  font-family: Montserrat, serif;
+}
+#foundernote{
+  font-family: Montserrat, sans-serif;
+  color: @salmon;
+  font-size: 25px;
+  line-height: 200%;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+#foundernote span{
+  font-size: 50px;
+  font-family: "Rock Salt", sans-serif;
+
+}
+.note{
+  font-family: Montserrat,sans-serif;
+  font-weight: bold;
+  color: @salmon;
+  width: 40%;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  line-height: 200%;
+}
+.Tansection{
+  background-color: @warmtan;
+}
+.serviceslist{
+  list-style-type: "\2014";
+  column-count: 2;
+  width: 80%;
+  margin: auto;
+}
+.servicelistitem{
+  font-family: Montserrat, serif;
+  line-height: 50px;
+}
+.logo{
+
+
+}
+.notediv{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.headervid{
+  width: 100%;
+  height: 400px;
+}
+.servicesgridfeat{
+  padding: 0 100px 100px 100px;
+}
+.servicesgridfeatodd{
+  background-color: @warmgray;
+  padding: 0 100px 100px 100px;
+  color: @warmtan;
+}
+footer{
+  color: @teal;
+  font-family: Montserrat,sans-serif;
+  text-align: center;
+  width: 100%;
+  span{
+    font-family: "Rock Salt",sans-serif;
+  }
+}

@@ -1,0 +1,7 @@
+.tabitem {
+  display: none;
+}
+.tabitem.active {
+  display: block;
+}
+/*# sourceMappingURL=features.css.map */
