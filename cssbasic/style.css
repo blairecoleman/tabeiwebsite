@@ -673,7 +673,7 @@ h4 {
 .tabitem.active {
   display: block;
 }
-.modal {
+.mapModal {
   display: none;
   /* Hidden by default */
   position: fixed;
@@ -694,13 +694,15 @@ h4 {
   /* Black w/ opacity */
 }
 .modal-content {
-  background-color: #fefefe;
+  background-color: #F4EBDA;
   margin: 15% auto;
   /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 50%;
   /* Could be more or less, depending on screen size */
+  font-family: "Monserrat", sans-serif;
+  border-radius: 5px;
 }
 .close {
   color: #aaa;
@@ -1057,5 +1059,15 @@ footer i {
   color: #29BEBA;
   font-size: 35px;
   padding: 20px;
+}
+svg {
+  width: 100%;
+  height: auto;
+}
+svg .modbut:hover {
+  background-color: #596A6A;
+}
+svg .modbut:active {
+  background-color: #29BEBA;
 }
 /*# sourceMappingURL=style.css.map */
