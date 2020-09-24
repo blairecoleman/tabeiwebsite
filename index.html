@@ -6,7 +6,7 @@
     <link rel = "stylesheet" href = "cssbasic/style.css">
     <link rel = "icon" href = "assets/fabicon2.png">
     <script src="https://kit.fontawesome.com/8ecbe21a08.js" crossorigin="anonymous"></script>
-</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <body>
 <div id="loader-wrapper">
     <div id="loader"></div>
@@ -23,7 +23,6 @@
     </div>
     <img class = "logo" src ="assets/rocky-mountain-671658head.jpg" alt = "">
     <h1>Tabei Design</h1>
-
 </header>
 <div>
     <nav>
@@ -155,25 +154,12 @@
         <button class = "calltoaction" type = "submit">Send</button>
     </form>
 </div>
-<footer>
-    <div class = "socialsgridfeat">
-        <!--for a grid of social media icons-->
-        <div class="grid-container">
-            <div class="socgrid-item">
-                <a href = ""><i class="fab fa-instagram"></i></a>
-            </div>
-            <div class="socgrid-item">
-                <a href = ""><i class="fab fa-linkedin"></i></a>
-            </div>
-            <div class="socgrid-item">
-                <a href = ""><i class="fas fa-laptop-code"></i></a>
-            </div>
-        </div>
-    </div>
-    <p>Proudly designed and developed by <span>Tabei</span> Design</p>
-    <small> &copy Tabei Design 2020</small>
-</footer>
-
+<div id = "footer"></div>
+<script>
+    $(document).ready(function() {
+        $("#footer").load("footer.php"); //NAME OF THE PAGE TO ADD
+    });
+</script>
 
 </body>
 </html>

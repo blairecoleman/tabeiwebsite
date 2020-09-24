@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Our Work</title>
     <link rel = "stylesheet" href = "cssbasic/style.css">
+    <script src="https://kit.fontawesome.com/8ecbe21a08.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
@@ -16,8 +18,8 @@
             <li class = "navstandardcont"><a href = "process.html">Our Process</a></li>
             <li class = "navstandardcont"><a href = "about.html">About Us</a></li>
             <li class = "navstandardcont"><a href = "blog.html">Blog</a></li>
-            <li class = "navstandardcont"><a href = "blog.html">Courses</a></li>
-            <li class = "navstandardcont"><a href = "portfolio.html">Our Work</a></li>
+            <li class = "navstandardcont"><a href = "courses.html">Courses</a></li>
+            <li class = "navstandardcont"><a href = "portfolio.html" class = "currentPage">Our Work</a></li>
         </ul>
     </nav>
 </div>
@@ -44,5 +46,11 @@
 <div>
     <h3>Software, Application and Backend Development</h3>
 </div>
+<div id = "footer"></div>
+<script>
+    $(document).ready(function() {
+        $("#footer").load("footer.php"); //NAME OF THE PAGE TO ADD
+    });
+</script>
 </body>
 </html>

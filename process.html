@@ -6,6 +6,7 @@
     <link rel = "stylesheet" href = "cssbasic/style.css">
     <link rel = "icon" href = "assets/fabicon2.png">
     <script src="https://kit.fontawesome.com/8ecbe21a08.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
@@ -15,7 +16,7 @@
     <nav>
         <ul class ="navstandard">
             <li><a href = "index.html"><img class = "" src ="assets/TabeiLogotitle3.jpg" alt = ""></a></li>
-            <li class = "navstandardcont"><a href = "process.html">Our Process</a></li>
+            <li class = "navstandardcont"><a href = "process.html" class = "currentPage">Our Process</a></li>
             <li class = "navstandardcont"><a href = "about.html">About Us</a></li>
             <li class = "navstandardcont"><a href = "blog.html">Blog</a></li>
             <li class = "navstandardcont"><a href = "blog.html">Courses</a></li>
@@ -239,6 +240,7 @@
     </tr>
 </table>
 </div>
+
 <div class = "calltoactionfeat">
     <blockquote class ="featureblockquote">Revitalize your online brand and set up your free consultation!</blockquote>
     <a href = "index.html#Contact"><button class ="calltoaction">Contact Us</button></a>
@@ -283,7 +285,7 @@
         </div>
     </div>
       <p class = "pfeat">
-          We offer a course on brand Development, but we also  offer Brand Development Services.
+          We offer a course on Brand Development, but we also  offer Brand Development Services.
           to purchase our high value course, click the Learn About Branding button below. To hire us for
           your BrandDevelopment Project select the Contact Us button below.
       </p>
@@ -295,20 +297,22 @@
 <div>
     <h2 id = "Courses">Online Course Development</h2>
     <p class = "pfeat">
-        Many people have a skillset or area of expertise that they can package and sell. Our current
+        Many people have a skill set or area of expertise that they can package and sell. Our current
         age of the internet makes this easy, but not everyone has the time of knowledge of how
         to package their knowledge. We do. Work with us and together we can deliver a beautiful,
         intuitive course design that a quality product you can feel proud of selling.  Contact us to set up
         your initial meeting.
     </p>
-    <div class = "videotrad">
+    <br><span class = note>Coming Soon!</span>
+
+   <!-- <div class = "videotrad">
         <video controls>
             <source src="" type="video/mp4">
             <source src="" type="video/ogg">
             Your browser does not support the video tag.
         </video>
     </div>
-    <button>Contact Us</button>
+    <button>Contact Us</button>-->
 </div>
 <div>
     <h2 id = "Counsult">Consulting Services</h2>
@@ -343,23 +347,11 @@
     <button>Contact Us</button>
 </div>
 
-<footer>
-    <div class = "socialsgridfeat">
-        <!--for a grid of social media icons-->
-        <div class="grid-container">
-            <div class="socgrid-item">
-                <a href = ""><i class="fab fa-instagram"></i></a>
-            </div>
-            <div class="socgrid-item">
-                <a href = ""><i class="fab fa-linkedin"></i></a>
-            </div>
-            <div class="socgrid-item">
-                <a href = ""><i class="fas fa-laptop-code"></i></a>
-            </div>
-        </div>
-    </div>
-    <p>Proudly designed and developed by <span>Tabei</span> Design</p>
-    <small> &copy Tabei Design 2020</small>
-</footer>
+<div id = "footer"></div>
+<script>
+    $(document).ready(function() {
+        $("#footer").load("footer.php"); //NAME OF THE PAGE TO ADD
+    });
+</script>
 </body>
 </html>

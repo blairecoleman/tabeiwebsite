@@ -6,10 +6,11 @@
     <link rel="stylesheet" href = "cssbasic/style.css">
     <link rel = "icon" href = "assets/fabicon2.png">
     <script src="https://kit.fontawesome.com/8ecbe21a08.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
-    <a href = "index.html"><img class = "logo" src ="" alt = ""></a>
+    <a href = "index.html"><img class = "logo" src = "assets/IMG_0933.jpg" alt = ""></a>
     <h1>Tabei Design</h1>
 </header>
 <div >
@@ -19,14 +20,18 @@
             <li class = "navstandardcont"><a href = "process.html">Our Process</a></li>
             <li class = "navstandardcont"><a href = "about.html">About Us</a></li>
             <li class = "navstandardcont"><a href = "blog.html">Blog</a></li>
-            <li class = "navstandardcont"><a href = "courses.html">Courses</a></li>
+            <li class = "navstandardcont"><a href = "courses.html" class = "currentPage">Courses</a></li>
             <li class = "navstandardcont"><a href = "portfolio.html">Our Work</a></li>
         </ul>
     </nav>
 </div>
-<h2>Courses</h2>
+<div class = "blockquotefeat">
+
+    <blockquote class = "featureblockquote">Coming Soon!</blockquote>
+</div>
+<!--<h2>Courses</h2>
 <div class = "notediv">
-    <em class = "note">We offer some courses to help  you successfully
+    <em class = "note">We will be offering some courses to help  you successfully
         establish and maintain your online brand and manage your website. </em>
 </div>
 
@@ -92,24 +97,12 @@
         expedita illum, laboriosam laudantium minima nesciunt optio praesentium quam repellat repellendus velit veritatis
         voluptatem voluptates!</p>
     <button class ="calltoaction">Action</button>
-</div>
-<footer>
-    <div class = "socialsgridfeat">
-        <!--for a grid of social media icons-->
-        <div class="grid-container">
-            <div class="socgrid-item">
-                <a href = ""><i class="fab fa-instagram"></i></a>
-            </div>
-            <div class="socgrid-item">
-                <a href = ""><i class="fab fa-linkedin"></i></a>
-            </div>
-            <div class="socgrid-item">
-                <a href = ""><i class="fas fa-laptop-code"></i></a>
-            </div>
-        </div>
-    </div>
-    <p>Proudly designed and developed by <span>Tabei</span> Design</p>
-    <small> &copy Tabei Design 2020</small>
-</footer>
+</div>-->
+<div id = "footer"></div>
+<script>
+    $(document).ready(function() {
+        $("#footer").load("footer.php"); //NAME OF THE PAGE TO ADD
+    });
+</script>
 </body>
 </html>
