@@ -256,3 +256,76 @@ window.onclick = function(event) {
     }
 
 }
+
+// Get the modal
+modal11 = document.getElementsByClassName("consultInfo")[0];
+
+// Get the button that opens the modal
+btn11 = document.getElementsByClassName("secNavBut")[0];
+
+// Get the <span> element that closes the modal
+span11 = document.getElementsByClassName("close")[10];
+
+// When the user clicks or hovers on the button, open the modal
+btn11.onclick = function() {
+    modal11.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span11.onclick = function() {
+    modal11.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target === modal) {
+        modal11.style.display = "none";
+    }
+}
+
+modal12 = document.getElementsByClassName("consultInfo")[1];
+
+// Get the button that opens the modal
+btn12 = document.getElementsByClassName("secNavBut")[1];
+
+// Get the <span> element that closes the modal
+span12 = document.getElementsByClassName("close")[11];
+
+btn12.onclick = function() {
+    modal12.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span12.onclick = function() {
+    modal12.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target === modal) {
+        modal12.style.display = "none";
+    }
+}
+modal13 = document.getElementsByClassName("consultInfo")[2];
+
+// Get the button that opens the modal
+btn13 = document.getElementsByClassName("secNavBut")[2];
+
+// Get the <span> element that closes the modal
+span13 = document.getElementsByClassName("close")[12];
+
+btn13.onclick = function() {
+    modal13.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span13.onclick = function() {
+    modal13.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target === modal) {
+        modal13.style.display = "none";
+    }
+}

@@ -623,7 +623,7 @@ h4 {
   text-align: center;
 }
 .calltoactionfeat {
-  background: url("../assets/snow-landscape-mountains-nature-59106.jpg");
+  background: url("../assets/IMG_1063.jpg");
   width: 100%;
   border-radius: 5px;
   margin: auto;
@@ -706,6 +706,26 @@ h4 {
   background-color: rgba(0, 0, 0, 0.4);
   /* Black w/ opacity */
 }
+.consultInfo {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: #000000;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
 .modal-content {
   background-color: #F4EBDA;
   margin: 15% auto;
@@ -760,7 +780,7 @@ h4 {
   padding: 20px;
 }
 .secondarynav {
-  background: url("../assets/scenic-photo-of-lake-surrounded-by-trees-1903702.jpg") no-repeat fixed;
+  background: url("../assets/art.png") no-repeat fixed;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -771,6 +791,17 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.secNavBut {
+  font-family: "Rock Salt", sans-serif;
+  color: #ffffff;
+  background-color: #29BEBA;
+  border-radius: 7px;
+  max-width: 300px;
+  min-height: 200px;
+}
+.secNavBut:hover {
+  background-color: #F08584;
 }
 .navstandardcont {
   flex-wrap: nowrap;
@@ -883,6 +914,12 @@ nav ul {
 }
 .currentPage {
   color: #29BEBA;
+}
+.serviceDescriptionDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 header img {
   width: 100%;
@@ -1094,19 +1131,31 @@ span .solidarity {
   font-family: "Abril Fatface", serif;
 }
 .pricingTable {
-  background-color: #596A6A;
+  background: url("../assets/art.png") no-repeat fixed;
 }
 table {
   font-family: "Monserrat", sans-serif;
 }
-th {
-  color: #F08584;
-  font-size: 30px;
-}
 td {
-  color: #F4EBDA;
+  color: #F08584;
   font-size: 25px;
   padding: 20px;
+}
+#footer {
+  max-height: 1000px;
+}
+.loading {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(245, 236, 207, 0.5);
+  background-image: url("../assets/tabeigif4.gif");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /*.comingSoon{
   background: url("../assets/IMG_0633.jpg") no-repeat fixed;

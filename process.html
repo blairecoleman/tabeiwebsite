@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
+<div class = "loading"></div>
 <header>
     <h1>Tabei Design</h1>
 </header>
@@ -19,12 +20,13 @@
             <li class = "navstandardcont"><a href = "process.html" class = "currentPage">Our Process</a></li>
             <li class = "navstandardcont"><a href = "about.html">About Us</a></li>
             <li class = "navstandardcont"><a href = "blog.html">Blog</a></li>
-            <li class = "navstandardcont"><a href = "blog.html">Courses</a></li>
+            <li class = "navstandardcont"><a href = "courses.html">Courses</a></li>
             <li class = "navstandardcont"><a href = "portfolio.html">Our Work</a></li>
         </ul>
     </nav>
 </div>
     <div class = "mapdynamic">
+        <em class = "note">Click the Numbers to find out More.</em>
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2650" height="1440" viewBox="0 0 2650 1440">
             <defs>
                 <style>
@@ -176,7 +178,7 @@
                 perspiciatis reiciendis? Architecto, cupiditate debitis dolores et laboriosam necessitatibus ullam ut!
                 Eaque eligendi eum minima voluptas!</p></div>
     </div>
-<script src = "js/modal.js"></script>
+
 
 </div>
 <div class = "Tansection">
@@ -186,7 +188,7 @@
     <h2>Completed Web Projects</h2>
     <div class = "webprojGrid">
         <div class = "webprojGriditem">
-            <a href = ""><img class = "navicon" src = "" alt = ""></a>
+            <a href = ""><img class = "navicon" src = "assets/logo.png" alt = ""></a>
             <p class = "naviconlabel">Haitian Hope Humanitarian Effort Inc.</p>
         </div>
         <div class = "webprojGriditem">
@@ -194,49 +196,28 @@
             <p class = "naviconlabel">Little Bit Of Everything Blog</p>
         </div>
         <div class = "webprojGriditem">
-            <a href = ""><img class = "navicon" src = "" alt = ""></a>
+            <a href = ""><img class = "navicon" src = "assets/solidaritysqare.png" alt = ""></a>
             <p class = "naviconlabel"><span class = "solidarity">Solidarity</span> the Movement</p>
         </div>
         <div class = "webprojGriditem">
-            <a href = ""><img class = "navicon" src = "" alt = ""></a>
+            <a href = ""><img class = "navicon" src = "assets/pentaprism.jpeg" alt = ""></a>
             <p class = "naviconlabel">PentaPrism Photo</p>
         </div>
     </div>
 </div>
 <div class = "pricingTable">
-    <h2>Web Build Plans</h2>
+    <h2>Web Build and Hosting Options</h2>
+
 <table>
     <tr>
-        <th>Plan Title</th>
-        <th>Description</th>
-    </tr>
-    <tr>
         <td>SquareSpace</td>
-        <td></td>
-    </tr>
-    <tr>
         <td>Wix</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Custom</td>
-        <td></td>
-    </tr>
-    <tr>
+        <td>Weebly</td>
+        <td>Custom: HTML, CSS, Javascript, Php, Java, Python</td>
         <td>Custom & Wordpress</td>
-        <td></td>
-    </tr>
-    <tr>
         <td>Wordpress</td>
-        <td></td>
-    </tr>
-    <tr>
         <td>Kajabi</td>
-        <td></td>
-    </tr>
-    <tr>
         <td>Dreamweaver</td>
-        <td></td>
     </tr>
 </table>
 </div>
@@ -245,7 +226,7 @@
     <blockquote class ="featureblockquote">Revitalize your online brand and set up your free consultation!</blockquote>
     <a href = "index.html#Contact"><button class ="calltoaction">Contact Us</button></a>
 </div>
-<div>
+<div class = "serviceDescriptionDiv">
     <h2 id = "Brand">Brand Development</h2>
     <p class = "pfeat">
         Brand Development is a process involved in using consistent imagery, voice and tone, and
@@ -284,17 +265,17 @@
             </div>
         </div>
     </div>
-      <p class = "pfeat">
+    <!--
+    <p class = "pfeat">
           We offer a course on Brand Development, but we also  offer Brand Development Services.
           to purchase our high value course, click the Learn About Branding button below. To hire us for
           your BrandDevelopment Project select the Contact Us button below.
-      </p>
-    <div class = "formorderhor">
-        <button>Learn About Branding</button>
-        <button>Contact Us</button>
-        </div>
+      </p>-->
+        <!--<a href = ""><button>Learn About Branding</button></a>-->
+        <a href = "index.html#Contact"><button>Contact Us</button></a>
+
 </div>
-<div>
+<div class = "serviceDescriptionDiv">
     <h2 id = "Courses">Online Course Development</h2>
     <p class = "pfeat">
         Many people have a skill set or area of expertise that they can package and sell. Our current
@@ -314,7 +295,7 @@
     </div>
     <button>Contact Us</button>-->
 </div>
-<div>
+<div class = "serviceDescriptionDiv">
     <h2 id = "Counsult">Consulting Services</h2>
     <p class = "pfeat">
         We offer, Social Media, Content Management, Usability and accessibility consulting. Of course,
@@ -327,24 +308,39 @@
         <!--for a display of business services-->
         <div class="grid-container">
             <div class="grid-item">
-                <img src = "" alt = "">
-                <h4>Social Media</h4>
-                <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit</em>
+                <button class = "secNavBut">Social Media</button>
+                <div class ="consultInfo" id = "socialMedia">
+                    <div class = "modal-content">
+                    <span class = "close">x</span>
+                    <h3>Social Media Consulting</h3>
+                    <p></p>
+                    </div>
+                </div>
             </div>
             <div class="grid-item">
-                <img src = "" alt = "">
-                <h4>Content Management</h4>
-                <em>Accusamus aliquid aperiam asperiores at debitis distinctio</em>
+                <button class = "secNavBut">Content Management</button>
+                <div class ="consultInfo" id = "contManagement">
+                    <div class = "modal-content">
+                    <span class = "close">x</span>
+                    <h3>Social Media Consulting</h3>
+                    <p></p>
+                    </div>
+                </div>
             </div>
             <div class="grid-item">
-                <img src = "" alt = "">
-                <h4>Usability and Accessibility</h4>
-                <em> eveniet exercitationem, expedita id nemo quas quasi quo repudiandae</em>
+                <button class = "secNavBut">Usability and Accessiblity</button>
+                <div class ="consultInfo" id = "access">
+                    <div class = "modal-content">
+                    <span class = "close">x</span>
+                    <h3>Social Media Consulting</h3>
+                    <p></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <button>Contact Us</button>
+    <a href = "index.html#Contact"><button>Contact Us</button></a>
 </div>
 
 <div id = "footer"></div>
@@ -353,5 +349,7 @@
         $("#footer").load("footer.php"); //NAME OF THE PAGE TO ADD
     });
 </script>
+<script src = "js/modal.js"></script>
+<script src = "js/load.js"></script>
 </body>
 </html>

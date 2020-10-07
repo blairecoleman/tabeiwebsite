@@ -22,6 +22,12 @@ nav ul {
 .currentPage{
   color: @teal;
 }
+.serviceDescriptionDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 header img {
   width: 100%;
   opacity: 50%;
@@ -243,23 +249,31 @@ span .solidarity{
   font-family: "Abril Fatface", serif;
 }
 .pricingTable{
-  background-color: @warmgray;
+  background: url("../assets/art.png") no-repeat fixed;
 }
 table{
   font-family: "Monserrat", sans-serif;
 }
-tr{
-
-}
-th{
-  color: @salmon;
-  font-size: 30px;
-
-}
 td {
-  color: @cooltan;
+  color: @salmon;
   font-size: 25px;
   padding: 20px;
+}
+#footer{
+  max-height: 1000px;
+}
+.loading{
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(245, 236, 207,.5);
+  background-image: url("../assets/tabeigif4.gif");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /*.comingSoon{
   background: url("../assets/IMG_0633.jpg") no-repeat fixed;

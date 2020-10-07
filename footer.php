@@ -8,10 +8,10 @@ print <<< HERE
                 <a href = ""><i class="fab fa-instagram"></i></a>
             </div>
             <div class="socgrid-item">
-                <a href = ""><i class="fab fa-linkedin"></i></a>
+                <a href = "https://www.linkedin.com/in/blaire-coleman/"><i class="fab fa-linkedin"></i></a>
             </div>
             <div class="socgrid-item">
-                <a href = ""><i class="fas fa-laptop-code"></i></a>
+                <a href = "https://github.com/blairecoleman"><i class="fas fa-laptop-code"></i></a>
             </div>
         </div>
     </div>

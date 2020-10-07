@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
+<div class = "loading"></div>
 <header>
     <a href = "index.html"><img class = "logo" src ="" alt = ""></a>
     <h1>Tabei Design</h1>
@@ -34,8 +35,8 @@
     </nav>
 </div>
 <div class = "Tansection">
-    <div class = "servicesgridfeat">
-        <!--for a display of business services-->
+    <!--<div class = "servicesgridfeat">
+        Instead add a php/javascript dynamic section with more recent post here.
         <div class="grid-container">
             <div class="grid-item">
                 <img src = "" alt = "">
@@ -54,19 +55,20 @@
 
             </div>
         </div>
-    </div>
+    </div>-->
 </div>
 
 <div class = "featuredisplay">
     <h2>Blog</h2>
     <ul class = "navsblog">
-        <li class = "navstandardcont"><a>Web Design</a></li>
-        <li class = "navstandardcont"><a>SEO Management</a></li>
-        <li class = "navstandardcont"><a>Online Passive Income</a></li>
-        <li class = "navstandardcont"><a>Tips Online Business</a></li>
+        <li class = "navstandardcont"><a href = "#webDesign">Web Design</a></li>
+        <li class = "navstandardcont"><a href = "#seoManage">SEO Management</a></li>
+        <li class = "navstandardcont"><a href = "#passiveIncome">Online Passive Income</a></li>
+        <li class = "navstandardcont"><a href = "#onlineBusiness">Tips Online Business</a></li>
+        <li class = "navstandardcont"><a href = "">All Posts</a></li>
     </ul>
 </div>
-<div class = "servicesgridfeatodd">
+<div class = "servicesgridfeatodd" id ="webDesign">
     <h3>Web Design</h3>
     <!--for a display of business services-->
     <div class="grid-container">
@@ -87,7 +89,7 @@
         </div>
     </div>
 </div>
-<div class = "servicesgridfeat">
+<div class = "servicesgridfeat" id = "seoManage">
     <h3>SEO Management</h3>
     <!--for a display of business services-->
     <div class="grid-container">
@@ -108,7 +110,7 @@
         </div>
     </div>
 </div>
-<div class = "servicesgridfeatodd">
+<div class = "servicesgridfeatodd" id ="passiveIncome">
     <h3>Online Passive Income</h3>
     <!--for a display of business services-->
     <div class="grid-container">
@@ -129,7 +131,7 @@
         </div>
     </div>
 </div>
-<div class = "servicesgridfeat">
+<div class = "servicesgridfeat" id = "onlineBusiness">
     <h3>Tips for an Online Business</h3>
     <!--for a display of business services-->
     <div class="grid-container">
@@ -156,7 +158,8 @@
         $("#footer").load("footer.php"); //NAME OF THE PAGE TO ADD
     });
 </script>
-
+<script src = "js/scroll.js"></script>
+<script src = "js/load.js"></script>
 
 </body>
 </html>
