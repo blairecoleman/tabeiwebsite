@@ -26,7 +26,23 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55627c66-6e2b-4509-9e77-96c272220bbc" name="Default Changelist" comment="" />
+    <list default="true" id="55627c66-6e2b-4509-9e77-96c272220bbc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/admin/addpost.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/admin/adduser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/admin/blogdraft.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/admin/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/database/database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/allpostcontent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/allposts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/recentcategoryposta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/recentpostsgallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +85,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -82,15 +99,16 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog/static" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -123,6 +141,10 @@
       <workItem from="1601181518642" duration="375000" />
       <workItem from="1602009069603" duration="7113000" />
       <workItem from="1602096172729" duration="449000" />
+      <workItem from="1602097251108" duration="5613000" />
+      <workItem from="1602110169161" duration="4768000" />
+      <workItem from="1602116153884" duration="1074000" />
+      <workItem from="1602118322917" duration="3491000" />
     </task>
     <task id="LOCAL-00001" summary="An attempt to see this on Github">
       <created>1597853505324</created>
@@ -173,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600921991892</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge branch 'master' of https://github.com/blairecoleman/tabeiwebsite&#10;process clickable map&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.">
+      <created>1602097377397</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602097377398</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,33 +236,61 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="316" y="50" key="#PHP/0.0.1280.800@0.0.1280.800" timestamp="1600891687104" />
-    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597851618917">
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602119547609">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1597851618917" />
-    <state x="225" y="23" width="830" height="715" key="CommitChangelistDialog2" timestamp="1600921990709">
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1602119547609" />
+    <state x="225" y="23" width="846" height="715" key="CommitChangelistDialog2" timestamp="1602097376421">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="225" y="23" width="830" height="715" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1600921990709" />
+    <state x="225" y="23" width="846" height="715" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1602097376421" />
     <state x="225" y="23" key="CommitChangelistDialog2/0.23.1280.721@0.23.1280.721" timestamp="1598812189461" />
     <state x="394" y="280" key="Github.CreatePullRequestDialog" timestamp="1597852791672">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="394" y="280" key="Github.CreatePullRequestDialog/0.0.1280.800@0.0.1280.800" timestamp="1597852791672" />
     <state x="394" y="274" key="Github.CreatePullRequestDialog/0.23.1280.716@0.23.1280.716" timestamp="1597851881297" />
-    <state x="461" y="330" key="NewPhpFileDialog" timestamp="1602093379159">
+    <state width="597" height="147" key="GridCell.Tab.0.bottom" timestamp="1602116213378">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="461" y="330" key="NewPhpFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1602093379159" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1602015647170">
+    <state width="597" height="147" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1602116213378" />
+    <state width="597" height="147" key="GridCell.Tab.0.center" timestamp="1602116213376">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1602015647170" />
+    <state width="597" height="147" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1602116213376" />
+    <state width="597" height="147" key="GridCell.Tab.0.left" timestamp="1602116213375">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="597" height="147" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1602116213375" />
+    <state width="597" height="147" key="GridCell.Tab.0.right" timestamp="1602116213377">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="597" height="147" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1602116213377" />
+    <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1602119564142">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="243" height="457" key="HiddenNamespacesPopup/0.0.1280.800@0.0.1280.800" timestamp="1602119564142" />
+    <state x="461" y="330" key="NewPhpFileDialog" timestamp="1602102961643">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="461" y="330" key="NewPhpFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1602102961643" />
+    <state x="141" y="39" key="SettingsEditor" timestamp="1602119455618">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1602119455618" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1602097277988">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1602097277988" />
     <state x="240" y="149" key="Vcs.Push.Dialog.v2/0.23.1280.721@0.23.1280.721" timestamp="1598812170970" />
-    <state x="441" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602015630632">
+    <state x="502" y="40" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1602116080920">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="441" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1602015630632" />
+    <state x="502" y="40" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.800@0.0.1280.800" timestamp="1602116080920" />
+    <state x="441" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602097266255">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="441" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1602097266255" />
     <state x="417" y="296" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597853024709">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -242,6 +299,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="383" y="301" key="git4idea.ui.GitResetDialog/0.0.1280.800@0.0.1280.800" timestamp="1597852982532" />
+    <state x="305" y="185" key="run.anything.popup" timestamp="1602119792116">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="185" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1602119792116" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1598810534032">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
