@@ -21,4 +21,3 @@ foreach ($display[0] as  $value){
 <li>$value</li>
 HERE;
 }
-?>

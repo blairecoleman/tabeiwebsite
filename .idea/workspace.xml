@@ -27,21 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55627c66-6e2b-4509-9e77-96c272220bbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/admin/addpost.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/admin/adduser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/admin/blogdraft.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/admin/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/database/database.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/allpostcontent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/allposts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/recentcategoryposta.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/recentpostsgallery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/allpostcontent.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/allpostcontent.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +131,7 @@
       <workItem from="1602097251108" duration="5613000" />
       <workItem from="1602110169161" duration="4768000" />
       <workItem from="1602116153884" duration="1074000" />
-      <workItem from="1602118322917" duration="3491000" />
+      <workItem from="1602118322917" duration="4025000" />
     </task>
     <task id="LOCAL-00001" summary="An attempt to see this on Github">
       <created>1597853505324</created>
@@ -202,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602097377398</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Merge branch 'master' of https://github.com/blairecoleman/tabeiwebsite&#10;process clickable map&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.">
+      <created>1602122790381</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602122790381</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,10 +234,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1602119547609" />
-    <state x="225" y="23" width="846" height="715" key="CommitChangelistDialog2" timestamp="1602097376421">
+    <state x="225" y="23" width="846" height="715" key="CommitChangelistDialog2" timestamp="1602122789461">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="225" y="23" width="846" height="715" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1602097376421" />
+    <state x="225" y="23" width="846" height="715" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1602122789461" />
     <state x="225" y="23" key="CommitChangelistDialog2/0.23.1280.721@0.23.1280.721" timestamp="1598812189461" />
     <state x="394" y="280" key="Github.CreatePullRequestDialog" timestamp="1597852791672">
       <screen x="0" y="0" width="1280" height="800" />
@@ -278,10 +272,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1602119455618" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1602097277988">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1602122742854">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1602097277988" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1602122742854" />
     <state x="240" y="149" key="Vcs.Push.Dialog.v2/0.23.1280.721@0.23.1280.721" timestamp="1598812170970" />
     <state x="502" y="40" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1602116080920">
       <screen x="0" y="0" width="1280" height="800" />
