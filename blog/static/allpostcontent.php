@@ -15,9 +15,12 @@ function getPublishedPosts() {
 }
 $display = getPublishedPosts();
 //print_r($display);
-foreach ($display[0] as  $value){
-
-    print <<<HERE
-<li>$value</li>
+foreach ($display as  $value){
+    $post = $value;
+    foreach($post as $a){
+        print <<<HERE
+<li>$a</li>
 HERE;
+    }
+
 }

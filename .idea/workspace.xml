@@ -27,8 +27,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55627c66-6e2b-4509-9e77-96c272220bbc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blogpost.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/admin/addpost.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin/addpost.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/static/allpostcontent.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/allpostcontent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/recentcategoryposta.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/recentcategoryposta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/recentpostsgallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/recentpostsgallery.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +46,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -90,13 +95,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/blog/static" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/blog/static" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -131,7 +136,8 @@
       <workItem from="1602097251108" duration="5613000" />
       <workItem from="1602110169161" duration="4768000" />
       <workItem from="1602116153884" duration="1074000" />
-      <workItem from="1602118322917" duration="4025000" />
+      <workItem from="1602118322917" duration="4710000" />
+      <workItem from="1603042068350" duration="4149000" />
     </task>
     <task id="LOCAL-00001" summary="An attempt to see this on Github">
       <created>1597853505324</created>
@@ -196,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602122790381</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Merge branch 'master' of https://github.com/blairecoleman/tabeiwebsite&#10;process clickable map&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.">
+      <created>1602182611432</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602182611433</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,10 +247,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1602119547609" />
-    <state x="225" y="23" width="846" height="715" key="CommitChangelistDialog2" timestamp="1602122789461">
+    <state x="225" y="23" width="846" height="715" key="CommitChangelistDialog2" timestamp="1602182610785">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="225" y="23" width="846" height="715" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1602122789461" />
+    <state x="225" y="23" width="846" height="715" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1602182610785" />
     <state x="225" y="23" key="CommitChangelistDialog2/0.23.1280.721@0.23.1280.721" timestamp="1598812189461" />
     <state x="394" y="280" key="Github.CreatePullRequestDialog" timestamp="1597852791672">
       <screen x="0" y="0" width="1280" height="800" />
@@ -272,10 +285,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1602119455618" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1602122742854">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1602182568711">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1602122742854" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1602182568711" />
     <state x="240" y="149" key="Vcs.Push.Dialog.v2/0.23.1280.721@0.23.1280.721" timestamp="1598812170970" />
     <state x="502" y="40" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1602116080920">
       <screen x="0" y="0" width="1280" height="800" />
