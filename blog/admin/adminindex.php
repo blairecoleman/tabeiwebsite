@@ -1,4 +1,7 @@
 <?php
+//use sessions for the post search
+//session_start();
+//$sendResults = $_SESSION['search'];
 print <<<HERE
 <!DOCTYPE html>
 <html lang="en">
@@ -22,19 +25,19 @@ print <<<HERE
             <li class = "navstandardcont"><a href = "addpost.php">Add Post</a></li>
             <li class = "navstandardcont"><a href = "adduser.php">Add User</a></li>
         </ul>
-<div>
-<!--search for posts-->
+        
+        <h2> Blog Administration</h2>
+
+<div id ="allPosts">
+<!--See all posts, add filters published, featured, not published-->
+<!--script from postdatabase-->
 </div>
-<div>
-<!--See all posts-->
-</div>
-<div>
-<!--Publish Posts-->
-</div>
-<div>
-<!--Delete Posts-->
-</div>
-<div class = "formorderhor">
+<script>
+    $(document).ready(function() {
+        $("#allPosts").load("postdatabase.php"); //NAME OF THE PAGE TO ADD
+    });
+</script>
+<div class = "centered">
 <a href = "../../blog.html"><button class = "calltoaction">Log Out</button></a>
 </div>
 HERE;
