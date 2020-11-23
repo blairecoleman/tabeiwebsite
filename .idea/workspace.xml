@@ -27,14 +27,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55627c66-6e2b-4509-9e77-96c272220bbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/admin/postdatabase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/admin/postsearch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/blog/.idea/blog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/blog/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/blog/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/blog/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/blog/community.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/blog/gardening.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/blog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/blog/recipe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/blog/suplements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/business/.idea/business.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/business/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/business/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/business/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/business/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/business/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/business/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/business/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/business/proddetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/business/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/business/storefront.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/customdesigninterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/nonprofit/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/nonprofit/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/nonprofit/.idea/nonprofit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/nonprofit/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/nonprofit/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/nonprofit/calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/nonprofit/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/nonprofit/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/nonprofit/volunteer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/changeSelectedPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/admin/adminindex.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin/adminindex.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cssbasic/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/cssbasic/main.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cssbasic/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/cssbasic/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cssbasic/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/cssbasic/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process.html" beforeDir="false" afterPath="$PROJECT_DIR$/process.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +72,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -67,6 +92,7 @@
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="blairecoleman" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="tabeiwebsite" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1" />
   <component name="ProjectId" id="1emcdynblSqhWvOUAtzXqdp6ToE" />
   <component name="ProjectLevelVcsManager">
@@ -147,7 +173,9 @@
       <workItem from="1603907445190" duration="17905000" />
       <workItem from="1605133620339" duration="2731000" />
       <workItem from="1605141540575" duration="14661000" />
-      <workItem from="1605299360491" duration="3615000" />
+      <workItem from="1605299360491" duration="4149000" />
+      <workItem from="1605897511029" duration="6277000" />
+      <workItem from="1606164859927" duration="1121000" />
     </task>
     <task id="LOCAL-00001" summary="An attempt to see this on Github">
       <created>1597853505324</created>
@@ -233,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603919603064</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Merge branch 'master' of https://github.com/blairecoleman/tabeiwebsite&#10;process clickable map&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.">
+      <created>1605303563518</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605303563521</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,10 +306,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1602119547609" />
-    <state x="225" y="23" width="846" height="715" key="CommitChangelistDialog2" timestamp="1603919602320">
+    <state x="225" y="23" width="846" height="715" key="CommitChangelistDialog2" timestamp="1605303562192">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="225" y="23" width="846" height="715" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1603919602320" />
+    <state x="225" y="23" width="846" height="715" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1605303562192" />
     <state x="225" y="23" key="CommitChangelistDialog2/0.23.1280.721@0.23.1280.721" timestamp="1598812189461" />
     <state x="394" y="280" key="Github.CreatePullRequestDialog" timestamp="1597852791672">
       <screen x="0" y="0" width="1280" height="800" />
@@ -301,18 +336,18 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="243" height="457" key="HiddenNamespacesPopup/0.0.1280.800@0.0.1280.800" timestamp="1602119564142" />
-    <state x="461" y="330" key="NewPhpFileDialog" timestamp="1603928270716">
+    <state x="461" y="330" key="NewPhpFileDialog" timestamp="1605899114096">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="461" y="330" key="NewPhpFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1603928270716" />
+    <state x="461" y="330" key="NewPhpFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1605899114096" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1602119455618">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1602119455618" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1603919588942">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1605303567579">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1603919588942" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1605303567579" />
     <state x="240" y="149" key="Vcs.Push.Dialog.v2/0.23.1280.721@0.23.1280.721" timestamp="1598812170970" />
     <state x="502" y="40" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1602116080920">
       <screen x="0" y="0" width="1280" height="800" />
