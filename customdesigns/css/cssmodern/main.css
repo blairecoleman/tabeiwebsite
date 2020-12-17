@@ -1,0 +1,19 @@
+p {
+  font-family: ParagraphFont, sans-serif;
+  font-size: 3vw;
+}
+blockquote {
+  font-family: SecondaryHeadingFont, sans-serif;
+  font-size: 7vw;
+}
+a {
+  font-family: ParagraphFont, sans-serif;
+  font-size: 3vw;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul {
+  list-style-type: none;
+}
+/*# sourceMappingURL=main.css.map */

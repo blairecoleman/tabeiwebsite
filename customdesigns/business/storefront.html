@@ -3,20 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <title>Products</title>
+    <link rel = "stylesheet" href = "../css/cssartsy/style.css">
+    <script src="https://kit.fontawesome.com/8ecbe21a08.js" crossorigin="anonymous"></script>
+    <!--other options for stylesheets:
+    ../css/cssartsy/style.css
+    ../css/cssmodern/style.css
+    ../css/cssnatural/style.css
+    ../css/cssretro/style.css
+    ../css/cssurban/style.css
+    -->
 </head>
 <body>
-<h1>Rise</h1>
-<nav></nav>
+<header>
+    <i id  = "logo"  class="fas fa-sun"></i>
+    <h1 class = "hometitle">Rise</h1>
+    <div class = "socialsgridfeat">
+        <!--for a grid of social media icons-->
+        <div class="grid-container">
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-linkedin"></i></a>
+            </div>
+
+        </div></div>
+</header>
+<a href = "cart.html"><i class="fas fa-shopping-cart"></i></a>
+<nav class = navstandard>
+    <ul class = navstandardcont>
+        <li><a href = "index.html">Home</a></li>
+        <li><a href = "contact.html">Contact</a></li>
+        <li><a href = "services.html">Services</a></li>
+        <li><a href = "storefront.html">Store</a></li>
+    </ul>
+</nav>
 <h2>Products</h2>
 <div>
     <!--search filter-->
+    <form action = "" method = "post">
+        <div class = "formorderhor">
+            <label for = "searchterm">Search</label>
+            <input id = "searchterm" name ="searchterm">
+        </div>
+        <button type = "submit" class = "calltoaction">Search Posts</button>
+    </form>
 </div>
 <div>
     <!--grid display products-->
+    <div class = "gallerygridfeat">
+        <!--for images, portfolio, art...square-->
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class ="gridimg1"></div>
+                <p>ITEM TITLE</p>
+            </div>
+            <div class="grid-item">
+                <div class ="gridimg2"></div>
+                <p>ITEM TITLE</p>
+            </div>
+            <div class="grid-item">
+                <div class ="gridimg3"></div>
+                <p>ITEM TITLE</p>
+            </div>
+            <div class="grid-item">
+                <div class ="gridimg4"></div>
+                <p>ITEM TITLE</p>
+            </div>
+            <div class="grid-item">
+                <div class ="gridimg5"></div>
+                <p>ITEM TITLE</p>
+            </div>
+            <div class="grid-item">
+                <div class ="gridimg6"></div>
+                <p>ITEM TITLE</p>
+            </div>
+            <div class="grid-item">
+                <div class ="gridimg7"></div>
+                <p>ITEM TITLE</p>
+            </div>
+            <div class="grid-item">
+                <div class ="gridimg8"></div>
+                <p>ITEM TITLE</p>
+            </div>
+            <div class="grid-item">
+                <div class ="gridimg9"></div>
+                <p>ITEM TITLE</p>
+            </div>
+        </div>
+    </div>
 </div>
 <footer>
     <!-- about and contact links-->
+    <ul>
+        <li class = "secondarynavitem"><a href = "about.html">About</a></li>
+        <li class = "secondarynavitem"><a href = "contact.html">Contact</a></li>
+    </ul>
     <!--table social media links-->
+    <div class = "socialsgridfeat">
+        <!--for a grid of social media icons-->
+        <div class="grid-container">
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div></div>
+
 </footer>
 </body>
 </html>

@@ -1,0 +1,97 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+}
+.gridaccordion{
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.active, .gridaccordion:hover {
+  background-color: #ccc;
+}
+
+//for animated accordian panel
+.gridpanel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+//symbol for whether it is collapsed or not
+.gridaccordion:after {
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.circulargridfeat{
+
+}
+.grid-containercir{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.cirgrid-item{
+
+}
+.cirgrid-img{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+.trianglegridfeat{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.trigrid-item{
+
+}
+.trigrid-img{
+  width: 300px;
+  height: 300px;
+
+  /* The points are: centered top, left bottom, right bottom */
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+}
+.trigrid-img2{
+  width: 300px;
+  height: 600px;
+
+  /* The points are: centered top, left bottom, right bottom */
+  clip-path: polygon(100% 50%, 50% 100%, 0% 50%);
+}
+.mosaicgridfeat{
+
+}
+.gridcontainermos{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+}
+.mosaicgrid-item{
+
+}
+#mositem1{
+
+}
+#mositem2{}
+#mositem3{}
+#mositem4{}
+#mositem5{}
+#mositem6{}
+#mositem7{}
+#mositem8{}
+#mositem9{}

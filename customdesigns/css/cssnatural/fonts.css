@@ -1,0 +1,19 @@
+@font-face {
+  font-family: HeadingFonts;
+  src: url("assets/Merriweather/Merriweather-Bold.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: SecondaryHeadingFont;
+  src: url("assets/Merriweather/Merriweather-BlackItalic.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: ParagraphFont;
+  src: url("assets/Padauk/Padauk-Regular.ttf");
+}
+@font-face {
+  font-family: AccentFont;
+  src: local("Rock Salt");
+}
+/*# sourceMappingURL=fonts.css.map */

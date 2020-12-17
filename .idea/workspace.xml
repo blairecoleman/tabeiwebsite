@@ -26,39 +26,386 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55627c66-6e2b-4509-9e77-96c272220bbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/customdesigns/blog/.idea/blog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/blog/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/blog/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/blog/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/blog/community.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/blog/gardening.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/blog/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/blog/recipe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/blog/suplements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/business/.idea/business.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/business/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/business/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/business/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/business/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/business/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/business/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/business/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/business/proddetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/business/services.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/business/storefront.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/customdesigninterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/nonprofit/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/nonprofit/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/nonprofit/.idea/nonprofit.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/nonprofit/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/nonprofit/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/nonprofit/calendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/nonprofit/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/nonprofit/services.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customdesigns/nonprofit/volunteer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/changeSelectedPage.js" afterDir="false" />
+    <list default="true" id="55627c66-6e2b-4509-9e77-96c272220bbc" name="Default Changelist" comment="Merge branch 'master' of https://github.com/blairecoleman/tabeiwebsite&#10;process clickable map&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.">
+      <change afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Josefin_Sans/JosefinSans-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Josefin_Sans/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Josefin_Sans/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Josefin_Sans/static/JosefinSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Josefin_Sans/static/JosefinSans-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Josefin_Sans/static/JosefinSans-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Josefin_Sans/static/JosefinSans-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Josefin_Sans/static/JosefinSans-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Josefin_Sans/static/JosefinSans-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Josefin_Sans/static/JosefinSans-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Josefin_Sans/static/JosefinSans-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Josefin_Sans/static/JosefinSans-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Josefin_Sans/static/JosefinSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Josefin_Sans/static/JosefinSans-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Josefin_Sans/static/JosefinSans-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Josefin_Sans/static/JosefinSans-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Josefin_Sans/static/JosefinSans-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Yellowtail/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/Yellowtail/Yellowtail-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/arstyeclecticbackground1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/arstyeclecticbackground4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/arstyeclecticebackground2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/artsyeclecticbackground3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/backgroundtest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/backgroundtest2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/funk4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/funk5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/funk7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/funk9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/hippie11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/hippie3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/hippie4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/hippie5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/hippie8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/hippie9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/hippoe7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/line1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/line10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/line13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/assets/line4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/audio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/audio.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/audio.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/blog.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/calendar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/carousel.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/carousel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/color.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/color.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/color.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/commentfourm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/commentfourm.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/commentfourm.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/contact.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/features.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/fonts.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/fonts.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/grid.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/headings.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/images.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/images.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/images.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/main.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/map.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/map.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/modals.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/nav.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/search.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/shop.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/style.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssartsy/video.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/Lato/Lato-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/Lato/Lato-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/Lato/Lato-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/Lato/Lato-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/Lato/Lato-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/Lato/Lato-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/Lato/Lato-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/Lato/Lato-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/Lato/Lato-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/Lato/Lato-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/Lato/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/Libre_Caslon_Display/LibreCaslonDisplay-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/Libre_Caslon_Display/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/bright11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/bright13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/bright2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/min11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/min13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/min14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/min15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/min2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/min5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/min6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/min7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/min9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/assets/wood5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/audio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/audio.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/audio.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/blog.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/calendar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/carousel.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/carousel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/color.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/color.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/color.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/commentfourm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/commentfourm.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/commentfourm.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/contact.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/features.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/fonts.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/fonts.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/grid.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/headings.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/images.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/images.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/images.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/main.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/map.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/map.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/modals.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/nav.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/search.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/shop.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/style.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssmodern/video.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/Merriweather/Merriweather-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/Merriweather/Merriweather-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/Merriweather/Merriweather-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/Merriweather/Merriweather-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/Merriweather/Merriweather-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/Merriweather/Merriweather-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/Merriweather/Merriweather-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/Merriweather/Merriweather-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/Merriweather/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/Padauk/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/Padauk/Padauk-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/Padauk/Padauk-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/download.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/garden11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/garden12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/garden4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/garden8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/images-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/images-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/images-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/nuetrals1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/nuetrals3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/nuetrals5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/nuetrals6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/nuetrals7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/texture12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/texture3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/texture4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/texture5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/assets/texture8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/audio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/audio.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/audio.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/blog.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/calendar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/carousel.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/carousel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/color.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/color.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/color.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/commentfourm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/commentfourm.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/commentfourm.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/contact.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/features.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/fonts.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/fonts.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/grid.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/headings.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/images.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/main.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/map.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/map.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/modals.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/nav.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/search.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/shop.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/style.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssnatural/video.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/60s1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/60s10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/60s2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/60s3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/60s5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/60s6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/60s7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/70s1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/70s15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/70s16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/70s3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/70s5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/70s7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/90s1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/90s2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/90s3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/90s4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/90s5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/90s6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/Bungee/Bungee-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/Bungee/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/Della_Respira/DellaRespira-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/Della_Respira/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/Monoton/Monoton-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/Monoton/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/assets/images-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/audio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/audio.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/audio.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/blog.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/calendar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/carousel.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/carousel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/color.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/color.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/color.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/commentfourm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/commentfourm.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/commentfourm.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/contact.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/features.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/fonts.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/fonts.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/grid.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/headings.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/image.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/image.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/main.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/map.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/map.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/modals.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/nav.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/search.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/shop.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/style.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssretro/video.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/Orbitron/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/Orbitron/Orbitron-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/Orbitron/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/Orbitron/static/Orbitron-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/Orbitron/static/Orbitron-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/Orbitron/static/Orbitron-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/Orbitron/static/Orbitron-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/Orbitron/static/Orbitron-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/Orbitron/static/Orbitron-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/Shadows_Into_Light/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/download-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/download.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/images-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/images-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/images-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/images-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/images-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/images-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/images-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/images-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/images-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/images-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/images-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/images.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/urban1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/urban2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/assets/urban3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/audio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/audio.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/audio.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/blog.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/calendar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/carousel.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/carousel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/color.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/color.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/color.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/commentfourm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/commentfourm.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/commentfourm.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/contact.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/features.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/fonts.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/fonts.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/grid.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/headings.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/image.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/image.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/main.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/map.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/map.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/modals.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/nav.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/search.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/shop.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/style.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/css/cssurban/video.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customdesigns/js/autocarousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/easescroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/modal2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/allposts.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/allposts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bloglogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/bloglogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogpost.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogpost.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cssbasic/carousel.less" beforeDir="false" afterPath="$PROJECT_DIR$/cssbasic/carousel.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cssbasic/grid.less" beforeDir="false" afterPath="$PROJECT_DIR$/cssbasic/grid.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cssbasic/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/cssbasic/main.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cssbasic/modals.less" beforeDir="false" afterPath="$PROJECT_DIR$/cssbasic/modals.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cssbasic/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/cssbasic/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cssbasic/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/cssbasic/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customdesigns/blog/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/customdesigns/blog/community.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customdesigns/blog/gardening.html" beforeDir="false" afterPath="$PROJECT_DIR$/customdesigns/blog/gardening.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customdesigns/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/customdesigns/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customdesigns/blog/recipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/customdesigns/blog/recipe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customdesigns/blog/suplements.html" beforeDir="false" afterPath="$PROJECT_DIR$/customdesigns/blog/suplements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customdesigns/business/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/customdesigns/business/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customdesigns/business/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/customdesigns/business/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customdesigns/business/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/customdesigns/business/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customdesigns/business/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/customdesigns/business/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customdesigns/business/proddetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/customdesigns/business/proddetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customdesigns/business/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/customdesigns/business/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customdesigns/business/storefront.html" beforeDir="false" afterPath="$PROJECT_DIR$/customdesigns/business/storefront.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customdesigns/customdesigninterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customdesigns/nonprofit/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/customdesigns/nonprofit/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customdesigns/nonprofit/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/customdesigns/nonprofit/calendar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customdesigns/nonprofit/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/customdesigns/nonprofit/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customdesigns/nonprofit/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/customdesigns/nonprofit/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customdesigns/nonprofit/volunteer.html" beforeDir="false" afterPath="$PROJECT_DIR$/customdesigns/nonprofit/volunteer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/changeSelectedPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/changeSelectedPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/process.html" beforeDir="false" afterPath="$PROJECT_DIR$/process.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +456,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -119,17 +466,19 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/blog/static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/customdesigns/css" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -175,7 +524,13 @@
       <workItem from="1605141540575" duration="14661000" />
       <workItem from="1605299360491" duration="4149000" />
       <workItem from="1605897511029" duration="6277000" />
-      <workItem from="1606164859927" duration="1121000" />
+      <workItem from="1606164859927" duration="12460000" />
+      <workItem from="1607900762305" duration="2767000" />
+      <workItem from="1608067740843" duration="1309000" />
+      <workItem from="1608078813627" duration="8013000" />
+      <workItem from="1608174454572" duration="5141000" />
+      <workItem from="1608229019264" duration="6585000" />
+      <workItem from="1608239269662" duration="6390000" />
     </task>
     <task id="LOCAL-00001" summary="An attempt to see this on Github">
       <created>1597853505324</created>
@@ -268,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605303563521</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Merge branch 'master' of https://github.com/blairecoleman/tabeiwebsite&#10;process clickable map&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.">
+      <created>1606167424705</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606167424705</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,10 +656,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/blairecoleman/tabeiwebsite&#10;process clickable map&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="46" key="#Deployment" timestamp="1597852166698">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="240" y="46" key="#Deployment/0.0.1280.800@0.0.1280.800" timestamp="1597852166698" />
     <state x="316" y="50" key="#PHP" timestamp="1600891687104">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -306,16 +664,18 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1602119547609" />
-    <state x="225" y="23" width="846" height="715" key="CommitChangelistDialog2" timestamp="1605303562192">
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608247687433">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="225" y="23" width="846" height="715" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1605303562192" />
-    <state x="225" y="23" key="CommitChangelistDialog2/0.23.1280.721@0.23.1280.721" timestamp="1598812189461" />
-    <state x="394" y="280" key="Github.CreatePullRequestDialog" timestamp="1597852791672">
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1608247687433" />
+    <state x="386" y="262" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1608238394640">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="394" y="280" key="Github.CreatePullRequestDialog/0.0.1280.800@0.0.1280.800" timestamp="1597852791672" />
-    <state x="394" y="274" key="Github.CreatePullRequestDialog/0.23.1280.716@0.23.1280.716" timestamp="1597851881297" />
+    <state x="386" y="262" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1608238394640" />
+    <state x="225" y="23" width="846" height="715" key="CommitChangelistDialog2" timestamp="1608239774390">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="225" y="23" width="846" height="715" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1608239774390" />
     <state width="597" height="147" key="GridCell.Tab.0.bottom" timestamp="1602116213378">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -336,42 +696,29 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="243" height="457" key="HiddenNamespacesPopup/0.0.1280.800@0.0.1280.800" timestamp="1602119564142" />
-    <state x="461" y="330" key="NewPhpFileDialog" timestamp="1605899114096">
+    <state x="461" y="330" key="NewPhpFileDialog" timestamp="1608229287418">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="461" y="330" key="NewPhpFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1605899114096" />
-    <state x="141" y="39" key="SettingsEditor" timestamp="1602119455618">
+    <state x="461" y="330" key="NewPhpFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1608229287418" />
+    <state x="141" y="39" key="SettingsEditor" timestamp="1608238513772">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1602119455618" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1605303567579">
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1608238513772" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1608239800723">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1605303567579" />
-    <state x="240" y="149" key="Vcs.Push.Dialog.v2/0.23.1280.721@0.23.1280.721" timestamp="1598812170970" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1608239800723" />
     <state x="502" y="40" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1602116080920">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="502" y="40" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.800@0.0.1280.800" timestamp="1602116080920" />
-    <state x="441" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602097266255">
+    <state x="441" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606167403805">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="441" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1602097266255" />
-    <state x="417" y="296" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597853024709">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="417" y="296" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.800@0.0.1280.800" timestamp="1597853024709" />
-    <state x="383" y="301" key="git4idea.ui.GitResetDialog" timestamp="1597852982532">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="383" y="301" key="git4idea.ui.GitResetDialog/0.0.1280.800@0.0.1280.800" timestamp="1597852982532" />
+    <state x="441" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1606167403805" />
     <state x="305" y="185" key="run.anything.popup" timestamp="1602119792116">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="305" y="185" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1602119792116" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1598810534032">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1598810534032" />
   </component>
 </project>

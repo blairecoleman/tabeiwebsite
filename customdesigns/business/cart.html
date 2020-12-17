@@ -3,18 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <title>Cart</title>
+    <link rel = "stylesheet" href = "../css/cssartsy/style.css">
+    <script src="https://kit.fontawesome.com/8ecbe21a08.js" crossorigin="anonymous"></script>
+    <!--other options for stylesheets:
+    ../css/cssartsy/style.css
+    ../css/cssmodern/style.css
+    ../css/cssnatural/style.css
+    ../css/cssretro/style.css
+    ../css/cssurban/style.css
+    -->
 </head>
 <body>
-<h1>Rise</h1>
-<nav></nav>
+<header>
+    <i id  = "logo"  class="fas fa-sun"></i>
+    <h1 class = "hometitle">Rise</h1>
+    <div class = "socialsgridfeat">
+        <!--for a grid of social media icons-->
+        <div class="grid-container">
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-linkedin"></i></a>
+            </div>
+
+        </div></div>
+</header>
+<a href = "cart.html"><i class="fas fa-shopping-cart"></i></a>
+<nav class = navstandard>
+    <ul class = navstandardcont>
+        <li><a href = "index.html">Home</a></li>
+        <li><a href = "contact.html">Contact</a></li>
+        <li><a href = "services.html">Services</a></li>
+        <li><a href = "storefront.html">Store</a></li>
+    </ul>
+</nav>
 <h2>Cart</h2>
 <div>
     <!--table dynamic cart list-->
-    <button></button>
+    <table>
+        <tr>
+            <th><h3>Quantity</h3></th>
+            <th><h3>Item</h3></th>
+            <th><h3>Remove</h3></th>
+        </tr>
+        <tr>
+            <td><p>1</p></td>
+            <td><p>Item</p></td>
+            <td><label for = remove1></label><p><input id = "remove1" type = "checkbox"></p></td>
+        </tr>
+        <tr>
+            <td><p>1</p></td>
+            <td><p>Item</p></td>
+            <td><label for = remove2></label><p><input id = "remove2" type = "checkbox"></p></td>
+        </tr>
+        <tr>
+            <td><p>1</p></td>
+            <td><p>Item</p></td>
+            <td><label for = remove3></label><p><input id = "remove3" type = "checkbox"></p></td>
+        </tr>
+        <tr>
+            <td><p>1</p></td>
+            <td><p>Item</p></td>
+            <td><label for = remove4></label><p><input id = "remove4" type = "checkbox"></p></td>
+        </tr>
+        <tr>
+            <td><p>1</p></td>
+            <td><p>Item</p></td>
+            <td><label for = remove5></label><p><input id = "remove5" type = "checkbox"></p></td>
+        </tr>
+    </table>
+    <button>Buy</button>
 </div>
 <footer>
     <!-- about and contact links-->
+    <ul>
+        <li class = "secondarynavitem"><a href = "about.html">About</a></li>
+        <li class = "secondarynavitem"><a href = "contact.html">Contact</a></li>
+    </ul>
     <!--table social media links-->
+    <div class = "socialsgridfeat">
+        <!--for a grid of social media icons-->
+        <div class="grid-container">
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div></div>
 </footer>
 </body>
 </html>

@@ -19,9 +19,26 @@ function changeSamplePage(selectedPage){
    }
     //use that value to change the file path to a different page from custom designs folder
 }
-function checkCurrentPage(){
-    //Checks the current sample page and pass to change style function
-}
-function changeSampleStyle(){
+function changeSampleStyle(selectedStyle){
+    var $iframe = $("iframe").contents().find("link");
     //changes the link to a different set of stylesguides after accepting both current page and style selctions
+    switch(selectedStyle){
+        case "artsy":
+            $iframe.attr("href","../css/cssartsy/style.css");
+            break;
+        case "modern":
+            $iframe.attr("href", "../css/cssmodern/style.css");
+            break;
+        case "natural":
+            $iframe.attr("href", "../css/cssnatural/style.css");
+            break;
+        case "retro":
+            $iframe.attr("href", "../css/cssretro/style.css");
+            break;
+        case "urban":
+            $iframe.attr("href", "../css/cssurban/style.css");
+            break;
+
+    }
+
 }

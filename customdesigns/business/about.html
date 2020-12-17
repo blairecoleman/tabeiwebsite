@@ -3,20 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <title>About</title>
+    <link rel = "stylesheet" href = "../css/cssartsy/style.css">
+    <script src="https://kit.fontawesome.com/8ecbe21a08.js" crossorigin="anonymous"></script>
+    <!--other options for stylesheets:
+    ../css/cssartsy/style.css
+    ../css/cssmodern/style.css
+    ../css/cssnatural/style.css
+    ../css/cssretro/style.css
+    ../css/cssurban/style.css
+    -->
 </head>
 <body>
-<h1>Rise</h1>
-<nav></nav>
+<header>
+    <i id  = "logo"  class="fas fa-sun"></i>
+    <h1 class = "hometitle">Rise</h1>
+    <div class = "socialsgridfeat">
+        <!--for a grid of social media icons-->
+        <div class="grid-container">
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-linkedin"></i></a>
+            </div>
+
+        </div></div>
+</header>
+<a href = "cart.html"><i class="fas fa-shopping-cart"></i></a>
+<nav class = navstandard>
+    <ul class = navstandardcont>
+        <li><a href = "index.html">Home</a></li>
+        <li><a href = "contact.html">Contact</a></li>
+        <li><a href = "services.html">Services</a></li>
+        <li><a href = "storefront.html">Store</a></li>
+    </ul>
+</nav>
 <h2>About</h2>
 <div>
     <!--feature-->
+    <div class = "paragraphfeat">
+        <h3>Feature Title</h3>
+        <p class = "pfeat">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut debitis doloremque eaque esse fuga harum iure minus
+            non omnis, optio pariatur quae quo reprehenderit, sapiente suscipit tempora ut veritatis vero!</p>
+        <img class = "pimg" src = "" alt = "">
+    </div>
 </div>
 <div>
     <!--subscribe-->
+    <div class = "subscribefeat">
+        <h3>Subscribe</h3>
+        <p>Brand catchphrase or message</p>
+        <!-- add some backend info to save emails-->
+        <!-- Use CSS to add background Image or other Style-->
+        <form>
+            <label for = "subemail">Enter your Email:</label>
+            <input type = email id = "subemail" >
+            <button>Subscribe</button>
+        </form>
+        <p class = "smallprint">Note about safety of personal information</p>
+    </div>
 </div>
 <footer>
     <!-- about and contact links-->
+    <ul>
+        <li class = "secondarynavitem"><a href = "about.html">About</a></li>
+        <li class = "secondarynavitem"><a href = "contact.html">Contact</a></li>
+    </ul>
     <!--table social media links-->
+    <!--table social media links-->
+    <div class = "socialsgridfeat">
+        <!--for a grid of social media icons-->
+        <div class="grid-container">
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div></div>
 </footer>
 </body>
 </html>

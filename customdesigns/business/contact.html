@@ -3,17 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
+    <link rel = "stylesheet" href = "../css/cssartsy/style.css">
+    <script src="https://kit.fontawesome.com/8ecbe21a08.js" crossorigin="anonymous"></script>
+    <!--other options for stylesheets:
+    ../css/cssartsy/style.css
+    ../css/cssmodern/style.css
+    ../css/cssnatural/style.css
+    ../css/cssretro/style.css
+    ../css/cssurban/style.css
+    -->
 </head>
 <body>
-    <h1>Rise</h1>
-    <nav></nav>
+<header>
+    <i id  = "logo"  class="fas fa-sun"></i>
+    <h1 class = "hometitle">Rise</h1>
+    <div class = "socialsgridfeat">
+        <!--for a grid of social media icons-->
+        <div class="grid-container">
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-linkedin"></i></a>
+            </div>
+
+        </div></div>
+</header>
+<a href = "cart.html"><i class="fas fa-shopping-cart"></i></a>
+<nav class = navstandard>
+    <ul class = navstandardcont>
+        <li><a href = "index.html">Home</a></li>
+        <li><a href = "contact.html">Contact</a></li>
+        <li><a href = "services.html">Services</a></li>
+        <li><a href = "storefront.html">Store</a></li>
+    </ul>
+</nav>
     <h2>Contact</h2>
 <div>
     <!--contact form-->
+    <div class = "contactform">
+        <h3>Contact Us!</h3>
+        <blockquote class = "contactcompmessage">Our team looks forward to hearing from you</blockquote>
+        <form class = "contactproblemform">
+            <label class = "contactformlabel" for = "mess2">What you want to tell us?</label>
+            <textarea id = "mess2" placeholder= "Type your message here."></textarea>
+            <button class = "formsubmitbutton" type = "submit"> Send </button>
+        </form>
+    </div>
 </div>
 <footer>
     <!-- about and contact links-->
+    <div class = "secondarynav">
+        <ul>
+            <li class = "secondarynavitem"><a href = "about.html">About</a></li>
+            <li class = "secondarynavitem"><a href = "contact.html">Contact</a></li>
+        </ul>
+    </div>
     <!--table social media links-->
+    <div class = "socialsgridfeat">
+        <!--for a grid of social media icons-->
+        <div class="grid-container">
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="socgrid-item">
+                <a href = ""><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div></div>
 </footer>
 </body>
 </html>

@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
+<div id = "loading"></div>
 <header>
     <a href = "index.html"><img class = "logo" src ="assets/snow-landscape-mountains-nature-59106.jpg" alt = ""></a>
     <h1>Tabei Design</h1>
@@ -46,6 +47,10 @@
         $("#footer").load("footer.php"); //NAME OF THE PAGE TO ADD
     });
 </script>
-<script src = "js/load.js"></script>
+<script>
+    $(window).load(function() {
+        $('#loading').hide();
+    });
+</script>
 </body>
 </html>

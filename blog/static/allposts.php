@@ -44,7 +44,11 @@ print <<<HERE
     });
 </script>
 </div>
-<script src = "../../js/load.js"></script>
+<script>
+    $(window).load(function() {
+        $('#loading').hide();
+    });
+</script>
 </body>
 </html>
 HERE;

@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/8ecbe21a08.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <body>
-<div class = "loading"></div>
+<div id = "loading"></div>
 <header>
     <div class = "blockquotefeat">
         <blockquote class ="featureblockquote"> We are a brand-conscious design company
@@ -75,33 +75,25 @@
         <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
             <div class = "pptcontent">
-                <h3>Slide Title</h3>
-                <h4>Slide Subtitle</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet assumenda, beatae dolorum eligendi
-                    error et eum explicabo fuga hic illo in maiores, minima mollitia, nam non quaerat quam sunt!</p>
-                <img src = "" alt = "">
+                <p>We are what we repeatedly do. Excellence then is not an act but a habit<br><i>~Aristole</i></p>
+                <img class = "pptimg" src = "assets/IMG_0938.jpg" alt = "">
             </div>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">2 / 3</div>
             <div class = "pptcontent">
-                <h3>Slide Title</h3>
-                <h4>Slide Subtitle</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet assumenda, beatae dolorum eligendi
-                    error et eum explicabo fuga hic illo in maiores, minima mollitia, nam non quaerat quam sunt!</p>
-                <img src = "" alt = "">
+                <p>Excellence is to do a common thing in an uncommon way.<br><i>~Booker T. Washington</i></p>
+                <img class = "pptimg" src = "assets/IMG_1070.jpg" alt = "">
             </div>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
             <div class = "pptcontent">
-                <h3>Slide Title</h3>
-                <h4>Slide Subtitle</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet assumenda, beatae dolorum eligendi
-                    error et eum explicabo fuga hic illo in maiores, minima mollitia, nam non quaerat quam sunt!</p>
-                <img src = "" alt = "">
+                <p>Perfection is not attainable, but if we chase perfection, we can catch excellence
+                    .<br><i>~Vince Lombardi</i></p>
+                <img class = "pptimg" src = "assets/IMG_0594.jpg" alt = "">
             </div>
         </div>
 
@@ -120,32 +112,32 @@
 </div>
 <div class = "Tansection">
     <h2 id = "Contact">Contact Us</h2>
-    <form>
+    <form action = "contact.php" method="post">
         <div class = "formorderhor">
         <label for = "fname">First Name:</label>
-        <input type = "text" id = "fname">
+        <input type = "text" id = "fname" name = "fname" required><span>*</span>
         <label for = "lname">Last Name:</label>
             <input type = "text" id = "lname">
         </div>
        <div class = "formorderhor">
         <label for = "orgname">Organization Name:</label>
-        <input type = "text" id = "orgname">
+        <input type = "text" id = "orgname" name = "orgname">
        </div>
         <div class = "formorderhor">
             <label for = "contactemail">Contact Email:</label>
-            <input type = "email" id = "contactemail">
+            <input type = "email" id = "contactemail" name = "contactemail" required><span>*</span>
         </div>
         <div class = formorderhor>
-            <input id = "consultation"  type ="checkbox">
+            <input id = "consultation"  type ="checkbox" name = "consultation"  checked>
             <label for = "consultation">I am contacting you to schedule a free consultation meeting</label>
         </div>
         <div class = "formorderhor">
-            <input id = questions type = "checkbox">
+            <input id = questions type = "checkbox" name = questions >
             <label for = "questions">I am contacting you with some questions</label>
         </div>
         <div class = "formorderhor">
-            <label for = "messagebody">Message:</label>
-            <textarea id = "messagebody"></textarea>
+            <label for = "messageBody">Message:</label>
+            <textarea id = "messageBody" name = "messageBody" required></textarea><span>*</span>
         </div>
         <button class = "calltoaction" type = "submit">Send</button>
     </form>
@@ -156,6 +148,10 @@
         $("#footer").load("footer.php"); //NAME OF THE PAGE TO ADD
     });
 </script>
-<script src = "js/load.js"></script>
+<script>
+    $(window).load(function() {
+        $('#loading').hide();
+    });
+</script>
 </body>
 </html>

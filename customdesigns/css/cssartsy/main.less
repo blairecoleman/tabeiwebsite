@@ -1,0 +1,145 @@
+body{
+  width: 80%;
+  margin: auto;
+  background-image: url("assets/line4.jpg");
+  background-color: white;
+}
+
+p {
+  font-family: ParagraphFont, sans-serif;
+  font-size: 2vw;
+  color: @mainColor;
+}
+blockquote{
+  font-family: SecondaryHeadingFont, sans-serif;
+  font-size: 5vw;
+  color: @accentColor
+
+}
+a {
+  font-family: ParagraphFont, sans-serif;
+  font-size: 2vw;
+  color: @mainColor
+}
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo{
+  font-size: 10vw;
+  color: @headingColor;
+}
+button {
+  outline:none;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px;
+  border: none;
+  box-shadow: none;
+  background-color: @accentColor;
+}
+form{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+label{
+  margin: 20px;
+  font-family: ParagraphFont, serif;
+  font-weight: 600;
+  font-size: 3vw;
+}
+input{
+  margin: 25px;
+  border-width: .5px;
+  border-style: solid;
+  border-color: @mainColor @mainColor @accentColor @mainColor;
+  border-radius: 10px;
+  width: 100%;
+  font-family: ParagraphFont, serif;
+}
+input:hover{
+  border-bottom: 2px solid @accentColor;
+
+}
+input:focus{
+  outline: none;
+  border-width: 3px;
+  border-style: solid;
+  border-color: @accentColor;
+
+  transition: ease-in-out, width .35s ease-in-out;
+  color: @mainColor;
+  font-size: 3vw;
+  font-family: ParagraphFont, serif;
+}
+textarea{
+  margin: 25px;
+  border-width: .5px;
+  border-style: solid;
+  border-color: @mainColor @mainColor @accentColor @mainColor;
+  border-radius: 10px;
+  width: 100%;
+  min-height: 500px;
+}
+textarea:hover{
+  border-bottom: 2px solid @accentColor;
+}
+textarea:focus{
+  outline: none;
+  border-width: 3px;
+  border-style: solid;
+  border-color: @accentColor;
+  box-shadow: 3px @mainColor;
+  transition: ease-in-out, width .35s ease-in-out;
+  color: @mainColor;
+  font-size: 3vw;
+  font-family: ParagraphFont, serif;
+}
+li a:hover{
+  color: @secondaryColor;
+}
+nav ul{
+list-style-type: none;
+}
+.currentPage{
+  color: @accentColor;
+}
+li{
+
+}
+nav{
+
+}
+nav ul {
+  list-style-type: none;
+}
+table{
+  width: 80%;
+  margin: auto;
+}
+tr{
+
+}
+th{
+  border: solid white 5px;
+  h3{
+  padding:50px;
+  }
+}
+td{
+ padding: 50px;
+  background-color: @secondaryColor;
+}
+footer{
+max-height: 1000px;
+  background-color: @accentColor2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

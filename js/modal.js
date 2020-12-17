@@ -189,12 +189,12 @@ window.onclick = function(event) {
 
 // When the user clicks on the button, open the modal
 btn8.onclick = function() {
-    modal7.style.display = "block";
+    modal8.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
 span8.onclick = function() {
-    modal7.style.display = "none";
+    modal8.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
@@ -256,6 +256,34 @@ window.onclick = function(event) {
     }
 
 }
+/*
+// Get the modal
+modal11 = document.getElementsByClassName("mapModal")[10];
+
+// Get the button that opens the modal
+btn11 = document.getElementsByClassName("modbut")[10];
+
+// Get the <span> element that closes the modal
+span11 = document.getElementsByClassName("close")[10];
+
+// When the user clicks on the button, open the modal
+btn11.onclick = function() {
+    modal10.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span11.onclick = function() {
+    modal11.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target === modal) {
+        modal11.style.display = "none";
+    }
+
+}*/
+
 
 // Get the modal
 modal11 = document.getElementsByClassName("consultInfo")[0];
